@@ -3,7 +3,10 @@ import './App.css'
 import LineChart from './components/Chart/LineChart'
 import Navbar from './components/Navbar/Navbar'
 import Phones from './components/Phones/Phones'
+import PieItems from './components/Pie/PieItems'
+
 import PriceOption from './components/PriceOption/PriceOption'
+import SimpleRadial from './components/SimpleRadial/SimpleRadial'
 
 function App() {
 
@@ -59,6 +62,8 @@ function App() {
       <PriceOption></PriceOption>
       <LineChart></LineChart>
       <Phones></Phones>
+      <PieItems></PieItems>
+      <SimpleRadial></SimpleRadial>
 
 
 
